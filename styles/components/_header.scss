@@ -25,6 +25,9 @@ header {
                 color: variaveis.$cor-primaria;
                 font-weight: 500;
                 font-family: variaveis.$ft-textos;
+                &:hover {
+                    font-weight: bold;
+                }
             }
         }
     }
@@ -53,8 +56,12 @@ header {
                 border: none;
                 outline: none;
                 border-radius: 66px;
-                background: variaveis.$cor-secundaria;
+                background: variaveis.$cor-default;
                 font-size: 1.3rem;
+                &:hover {
+                    background: variaveis.$cor-secundaria;
+                    transition: 0.8s;
+                }
             }
         }
         .img-home {
