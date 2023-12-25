@@ -193,6 +193,7 @@ header #home .img-home img {
   display: flex;
   justify-content: space-between;
   gap: 2rem;
+  margin-bottom: 2rem;
 }
 #contatos .contatos-imgs {
   max-width: 50%;
@@ -256,4 +257,14 @@ header #home .img-home img {
 #contatos .contatos-form .inputs .btn:hover {
   background: #4e75ff;
   transition: 0.9s;
+}
+
+footer {
+  background: #E8F5C8;
+  padding: 2rem;
+  margin-top: 5rem;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  color: #0c0421;
 }/*# sourceMappingURL=styles.css.map */
