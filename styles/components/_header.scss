@@ -21,6 +21,7 @@ header {
             }
             a {
                 text-decoration: none;
+                @include mixins.ff-fs-cl(variaveis.$ft-textos, 1rem, variaveis.$cor-primaria);
                 color: variaveis.$cor-primaria;
                 font-weight: 500;
                 font-family: variaveis.$ft-textos;
@@ -29,8 +30,7 @@ header {
     }
     #home {
         max-width: 1040px;
-        width: 80%;
-        margin: 0 auto;
+        @include mixins.margem-central(80%);
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -53,7 +53,7 @@ header {
                 border: none;
                 outline: none;
                 border-radius: 66px;
-                background: variaveis.$cor-default;
+                background: variaveis.$cor-secundaria;
                 font-size: 1.3rem;
             }
         }
